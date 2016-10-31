@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script type="text/javascript" src="js/jquery-3.1.1.slim.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <title>Places I've Been</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1>Places I've Been</h1>
+      </div>
+      <p>Enter a place you've been and submit to store it.</p>
+      <form id="inputs">
+        <div class="form-group">
+          <label for="place">Place:</label>
+          <input class="form-control" id="place" placeholder="Enter a place">
+        </div>
+        <div class="form-group">
+          <label for="landmarks">Landmarks:</label>
+          <input class="form-control" id="landmarks" placeholder="Enter landmarks">
+        </div>
+        <div class="form-group">
+          <label for="timeOfYear">Time of year:</label>
+          <select class="form-control" id="timeOfYear" placeholder="Time of year visited">
+            <option>Spring</option>
+            <option>Summer</option>
+            <option>Fall</option>
+            <option>Winter</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="notes">Please include any notes:</label>
+          <input class="form-control" id="notes" placeholder="Enter notes">
+        </div>
+      </form>
+      <button id="submit" class="btn btn-default" type="submit">Submit</button>
+    </div>
+  </body>
+</html>
